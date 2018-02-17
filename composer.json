@@ -1,0 +1,14 @@
+{
+    "name": "joannesource/iframous",
+    "description": "PHP iframe components library",
+    "type": "library",
+    "require": {
+        "bramus/router": "~1.0",
+        "imangazaliev/didom": "^1.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iframous\\": "src/Iframous/"
+        }
+    }
+}
